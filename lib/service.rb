@@ -3,6 +3,8 @@
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 
+require "extend/blank"
+
 require "service/formula_wrapper"
 require "service/services_cli"
 require "service/system"

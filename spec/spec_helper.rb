@@ -7,8 +7,6 @@ SimpleCov.start do
   minimum_coverage 20
 end
 
-require "active_support/core_ext/string"
-
 PROJECT_ROOT = Pathname(__dir__).parent.freeze
 Dir.glob("#{PROJECT_ROOT}/lib/**/*.rb").each do |file|
   require file
